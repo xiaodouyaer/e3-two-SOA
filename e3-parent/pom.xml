@@ -266,7 +266,7 @@
           <configuration>
             <path>/test</path><!--设置访问路径-->
             <!--<url>http://localhost:8989/</url>-->
-            <port>8989</port><!--设置访问端口-->
+            <!--<port>8989</port>&lt;!&ndash;设置访问端口&ndash;&gt;-->
             <server>tomcat7</server>
             <username>admin</username>
             <password>admin</password>

@@ -1,13 +1,14 @@
 package cn.e3mall.controller;
 
-import cn.e3mall.interfaces.ItemService;
-import cn.e3mall.pojo.TbItem;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+
+import cn.e3mall.interfaces.ItemService;
+import cn.e3mall.pojo.TbItem;
 
 /**
  * Created by liuchaoya on 2018/8/1.
