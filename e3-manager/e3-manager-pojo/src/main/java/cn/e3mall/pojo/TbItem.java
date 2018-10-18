@@ -116,7 +116,7 @@ public class TbItem implements Serializable {
 
     @Override
     public String toString() {
-        return "TbItem{" +
+        return "{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", sellPoint='" + sellPoint + '\'' +

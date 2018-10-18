@@ -1,13 +1,12 @@
 package cn.e3mall.interfaces.impl;
 
-import cn.e3mall.interfaces.ItemService;
-import cn.e3mall.mapper.TbItemMapper;
-import cn.e3mall.pojo.TbItem;
-import cn.e3mall.pojo.TbItemExample;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.List;
+
+import cn.e3mall.interfaces.ItemService;
+import cn.e3mall.mapper.TbItemMapper;
+import cn.e3mall.pojo.TbItem;
 
 /**
 * Created By LiuChaoya 
@@ -17,7 +16,7 @@ import java.util.List;
 @Service
 public class ItemServiceImpl implements ItemService {
 
-	@Resource()
+	@Resource
 	private TbItemMapper tbItemMapper;
 
 	@Override
